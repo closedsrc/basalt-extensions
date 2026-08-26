@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "extensions": [
+    {
+      "id": "com.basalt.basaltify",
+      "name": "Basaltify",
+      "version": "1.0.0",
+      "author": "Basalt",
+      "description": "A music player for the launcher. Searches and streams from YouTube via yt-dlp, with a trending chart, local playlists, and a now-playing bar that keeps playing as you browse.",
+      "icon": "i-lucide:music",
+      "url": "https://github.com/closedsrc/basalt-extensions/releases/download/extensions-v1/com.basalt.basaltify-1.0.0.basaltext",
+      "permissions": { "http": ["https://api.deezer.com", "https://github.com"], "process": ["yt-dlp"], "storage": true }
+    }
+  ]
+}
