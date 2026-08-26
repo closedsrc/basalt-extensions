@@ -2,6 +2,16 @@
   "version": 1,
   "extensions": [
     {
+      "id": "com.basalt.servers",
+      "name": "Servers",
+      "version": "1.0.0",
+      "author": "Basalt",
+      "description": "Host Minecraft servers locally. Create Vanilla, Paper, Fabric or Forge servers, run them with a live two-way console, edit server.properties, and manage their files.",
+      "icon": "i-lucide:server",
+      "url": "https://github.com/closedsrc/basalt-extensions/releases/download/extensions-v1/com.basalt.servers-1.0.0.basaltext",
+      "permissions": { "http": ["https://piston-meta.mojang.com", "https://piston-data.mojang.com", "https://fill.papermc.io", "https://fill-data.papermc.io", "https://meta.fabricmc.net", "https://mcjars.app", "https://files.mcjars.app"], "process": ["java"], "storage": true }
+    },
+    {
       "id": "com.basalt.basaltify",
       "name": "Basaltify",
       "version": "1.0.0",
