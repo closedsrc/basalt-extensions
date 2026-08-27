@@ -5,12 +5,26 @@
     {
       "id": "com.basalt.servers",
       "name": "Servers",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "Basalt",
-      "description": "Host Minecraft servers locally. Create Vanilla, Paper, Fabric or Forge servers, run them with a live two-way console, edit server.properties, and manage their files.",
+      "description": "Host Minecraft servers on your own machine. Create Vanilla, Paper, Fabric or Forge servers, run them with a live console, watch players and tick rate, edit server.properties with real controls, and browse and edit their files. Matches the launcher's theme and accent automatically.",
       "icon": "https://raw.githubusercontent.com/closedsrc/basalt-extensions/main/icons/servers.svg",
-      "url": "https://github.com/closedsrc/basalt-extensions/releases/download/extensions-v1/com.basalt.servers-1.0.0.basaltext",
-      "permissions": { "http": ["https://piston-meta.mojang.com", "https://piston-data.mojang.com", "https://fill.papermc.io", "https://fill-data.papermc.io", "https://meta.fabricmc.net", "https://mcjars.app", "https://files.mcjars.app"], "process": ["java"], "storage": true }
+      "url": "https://github.com/closedsrc/basalt-extensions/releases/download/extensions-v1/com.basalt.servers-1.1.0.basaltext",
+      "permissions": {
+        "http": [
+          "https://piston-meta.mojang.com",
+          "https://piston-data.mojang.com",
+          "https://fill.papermc.io",
+          "https://fill-data.papermc.io",
+          "https://meta.fabricmc.net",
+          "https://mcjars.app",
+          "https://files.mcjars.app"
+        ],
+        "process": [
+          "java"
+        ],
+        "storage": true
+      }
     },
     {
       "id": "com.basalt.basaltify",
@@ -20,7 +34,16 @@
       "description": "A music player for the launcher. Searches and streams from YouTube via yt-dlp, with a trending chart, local playlists, and a now-playing bar that keeps playing as you browse.",
       "icon": "https://raw.githubusercontent.com/closedsrc/basalt-extensions/main/icons/basaltify.svg",
       "url": "https://github.com/closedsrc/basalt-extensions/releases/download/extensions-v1/com.basalt.basaltify-1.0.0.basaltext",
-      "permissions": { "http": ["https://api.deezer.com", "https://github.com"], "process": ["yt-dlp"], "storage": true }
+      "permissions": {
+        "http": [
+          "https://api.deezer.com",
+          "https://github.com"
+        ],
+        "process": [
+          "yt-dlp"
+        ],
+        "storage": true
+      }
     }
   ]
 }
