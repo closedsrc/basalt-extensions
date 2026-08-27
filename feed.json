@@ -5,11 +5,11 @@
     {
       "id": "com.basalt.servers",
       "name": "Servers",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Basalt",
-      "description": "Host Minecraft servers on your own machine. Create Vanilla, Paper, Fabric or Forge servers, run them with a live console, watch players and tick rate, edit server.properties with real controls, and browse and edit their files. Matches the launcher's theme and accent automatically.",
+      "description": "Host Minecraft servers on your own machine. Creates Vanilla, Paper, Fabric or Forge servers, downloads the Java version each one needs, and runs them with a live console, player and tick-rate charts, typed server.properties controls and a file browser with an editor. Matches the launcher's theme and accent automatically.",
       "icon": "https://raw.githubusercontent.com/closedsrc/basalt-extensions/main/icons/servers.svg",
-      "url": "https://github.com/closedsrc/basalt-extensions/releases/download/extensions-v1/com.basalt.servers-1.1.0.basaltext",
+      "url": "https://github.com/closedsrc/basalt-extensions/releases/download/extensions-v1/com.basalt.servers-1.2.0.basaltext",
       "permissions": {
         "http": [
           "https://piston-meta.mojang.com",
@@ -18,7 +18,10 @@
           "https://fill-data.papermc.io",
           "https://meta.fabricmc.net",
           "https://mcjars.app",
-          "https://files.mcjars.app"
+          "https://files.mcjars.app",
+          "https://api.adoptium.net",
+          "https://github.com",
+          "https://objects.githubusercontent.com"
         ],
         "process": [
           "java"
